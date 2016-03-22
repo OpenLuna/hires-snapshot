@@ -30,8 +30,8 @@ def streaming():
 
             while True: # resolution adjustment loop
                 print 'about to set camera resolution'
-                camera.resolution = (1280, 800)
-                camera.framerate = 0.2
+                camera.resolution = (640, 480)
+                camera.framerate = 16
                 camera.shutter_speed = 10000
                 print 'camera resolution set, about to go for image'
 
